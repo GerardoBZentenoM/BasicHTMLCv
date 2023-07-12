@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#cv {
+    margin: auto;
+    width: 80%;
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+
+
+h2 {
+    color: dodgerblue;
+}
+
+.info-personal {
+    text-align: center;
+}
+
+.info-personal h1 {
+    font-size: 2em;
+}
+
+.info-personal p {
+    font-size: 1.2em;
+}
+
+.columnas {
+    display: flex;
+    justify-content: space-between;
+}
+
+.columna-izquierda,
+.columna-derecha {
+    width: 45%;
+}
+
+.educacion,
+.experiencia,
+.habilidades,
+.certificaciones {
+    margin-top: 20px;
+}
+
+.educacion p,
+.experiencia p,
+.habilidades ul,
+.certificaciones ul {
+    font-size: 1em;
+}
+
+.foto-perfil {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.certificaciones {
+    margin-top: 20px;
+}
+
+.certificaciones h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.certificaciones ul {
+    list-style-type: none;
+    /* remueve los bullets de la lista */
+    padding-left: 0;
+    /* remueve el padding de la lista */
+}
+
+.certificaciones li {
+    background-color: #f2f2f2;
+    /* color de fondo de cada certificación */
+    margin-bottom: 10px;
+    /* espacio entre certificaciones */
+    padding: 10px;
+    /* espacio dentro de cada certificación */
+    border-radius: 5px;
+    /* bordes redondeados */
+}
+
+.certificaciones a {
+    text-decoration: none;
+    /* remueve el subrayado del enlace */
+    color: #333;
+    /* color del texto del enlace */
+}
+
+.certificaciones a:hover {
+    color: #007BFF;
+    /* color del texto del enlace al pasar el cursor */
+}
+
+.certificaciones span {
+    font-weight: normal;
+    /* nombre del emisor en texto normal */
+}
+
+.icon-link {
+    margin-right: 20px;
+    /* Añade un margen a la derecha de cada ícono */
+}

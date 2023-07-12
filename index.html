@@ -1,6 +1,9 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
+
 <head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <meta charset="UTF-8">
     <meta name="description" content="Pagina personal de Gerardo Zenteno">
     <meta name="keywords" content="Pagina personal de Gerardo Zenteno">
@@ -8,43 +11,124 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gerardo Personal Site</title>
 </head>
+
 <body>
-    <table cellspacing = 20>
-        <tr>
-            <td>    <img src="images\circle-cropped.png" alt="Foto de Perfil de Gerardo Zenteno"></td>
-        <td>
-            <h1>Gerardo Zenteno</h1>
-            <p><em>Ingeniero Desarrollador <strong>MEXICO</strong></em></p>
-            <p>Im a Mobile and web developer, cloud and cibersecurity enthusiatc</p>
-            
-        </td>
-        </tr>
+    <div id="cv">
+        <div class="info-personal">
+            <div class="columnas">
+                <div class="columna-izquierda">
+                    <h1>Gerardo Zenteno</h1>
+                    <h2>Python Developer</h2>
+                    <a class="icon-link" href="https://www.linkedin.com/in/brallan-zenteno/" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a class="icon-link" href="mailto:brallanzenteno@gmail.com" target="_blank">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+                <div class="columna-derecha">
+                    <img src="images\circle-cropped.png" alt="Foto de Perfil de Gerardo Zenteno" class="foto-perfil">
+                </div>
+            </div>
+            <p>I'm 25 years old, I work as a Python Developer, and have experience in
+                Cybersecurity, Databases, DevOps, Flutter, and Embedded Systems.</p>
+        </div>
 
-    </table>
-    <hr>
-    <h3>Formal Education</h3>
-    <ul>
-        <li>IPN Ingenieria</li>
-        <li>CIC Lab. Ciberseguridad</li>
-    </ul>
-    <h3>Proyectos: </h3>
+        <div class="columnas">
+            <div class="columna-izquierda">
+                <div class="experiencia">
+                    <h2>EXPERIENCE</h2>
+                    <p>Python Developer - Cyttek Krypto Solutions. (2021 - Ongoing)</p>
+                    <p>Developer in a Cybersecurity Lab - CIC. (2020 - 2021)</p>
+                </div>
 
-    <table>
-        <tr><td>2020</td><td> Acuaponics system</td></tr>
-        <tr><td>2020</td><td> Desarrollo en flutter y python</td></tr>
-    </table>
-    <hr>
-    <h3>
-        Skills
-    </h3>
-    <table>
-        <tr><td>Flutter</td><td>✨✨✨✨</td></tr>
-        <tr><td>C/C++</td><td>✨✨✨✨</td></tr>
-        <tr><td>Python</td><td>✨✨✨✨</td></tr>
-        <tr><td>cloud</td><td>✨✨✨✨</td></tr>
-    </table>
-    <hr>
-    <a href="hobbies.html">More Education</a>
-    <a href="contacme.html">Contact Me</a>
+                <div class="educacion">
+                    <h2>EDUCATION</h2>
+                    <p>BEng in Communications and Electronics - IPN. (2015-2020)</p>
+                </div>
+                <div class="educacion">
+                    <h2>PROJECTS</h2>
+                    <p>Aquaponics System IoT.</p>
+                    <p>
+                        - Control with IoT devices programmed in C, Monitoring with a Mobile App and Cloud.
+                        - Hardware: ST MCUs / Software: C, Flutter, Python (Django) / Cloud: GCP.
+                    </p>
+                    <div class="certificaciones">
+
+                        <a href="https://github.com/GerardoBZentenoM/DoS-BruteForce-FakeData" target="_blank">RedNet:
+                            Python
+                            Network Testing
+                            Tool for Unified DoS Testing.</a>
+                        <p>
+                            -
+                            RedNet is a Python script designed to perform a wide range of networking tests, with a focus
+                            on
+                            unifying Denial of Service (DoS) testing through a simple command. This powerful tool
+                            enables
+                            comprehensive evaluations of network resilience and security.
+                        </p>
+                        <a href="https://github.com/GerardoBZentenoM/test-of-all-the-states-of-mexico" target="_blank">
+                            GeoQuiz: Mexico State Identification Game with Pandas and Turtle.</a>
+                        <p>
+                            -
+                            In this game you can GeoQuiz is an interactive game developed using Pandas and Turtle in
+                            Python
+                            that challenges your geography skills. The objective of the game is to correctly identify
+                            and
+                            write the names of the 32 states of Mexico.
+                    </div>
+
+                    </p>
+                </div>
+            </div>
+
+            <div class="columna-derecha">
+                <div class="habilidades">
+                    <h2>SKILLS</h2>
+                    <ul>
+                        <li>Python</li>
+                        <li>Linux</li>
+                        <li>Cybersecurity</li>
+                        <li>DevOps</li>
+                        <li>Flutter</li>
+                        <li>Embedded Systems</li>
+                    </ul>
+                </div>
+
+                <div class="certificaciones">
+                    <h2>CERTIFICATIONS</h2>
+                    <ul>
+                        <li><a href="https://www.credly.com/badges/5e32b557-9a78-4a18-b25f-33976294ab6a"
+                                target="_blank"> IT Support Professional Certificate. <span>Google</span></a></li>
+                        <li><a href="https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-OC0CQ25Q3U.png"
+                                target="_blank"> Jr Penetration Tester. TryHackMe </a></li>
+                        <li><a href="https://www.credential.net/daa9b1ec-0b09-4ea7-a8dc-a371171d5c9f#gs.2apn99"
+                                target="_blank"> Full Stack Observability. New Relic </a></li>
+                        <li><a href="https://www.linkedin.com/posts/brallan-zenteno_azure-activity-6793200052576796672-MyeY/?utm_source=share&utm_medium=member_desktop"
+                                target="_blank"> AZ - 900. Microsoft </a></li>
+                        <li><a href="https://www.linkedin.com/posts/brallan-zenteno_gbzm-certificado-ibm-activity-6790076100425908224-rHaJ?utm_source=share&utm_medium=member_desktop"
+                                target="_blank"> Marathon Behind the Code. IBM </a></li>
+                        <li><a href="https://www.linkedin.com/posts/brallan-zenteno_estoy-muy-agradecido-con-accenture-m%C3%A9xico-activity-6819477087368355840-YEUp?utm_source=share&utm_medium=member_desktop"
+                                target="_blank"> Life skills and GET AP. Junior Achievement </a></li>
+                        <li><a href="https://cursos.devtalles.com/certificates/oqcibmw69y" target="_blank"> Docker -
+                                Practical Guide for Developers. DevTalles </a></li>
+                        <li><a href="https://coursera.org/share/2bba80ff7f2fed24a2f578799cd2b901" target="_blank"> Agile
+                                Meets Design Thinking. University of Virginia </a></li>
+                        <li><a href="https://platzi.com/p/gerardo-zenteno/ruta/7050-web-python/diploma/detalle/"
+                                target="_blank"> Backend with Python. Platzi </a></li>
+                        <li><a href="https://www.credly.com/badges/5635cec8-4902-4b49-a1d9-642abd35b74e/linked_in_profile"
+                                target="_blank"> Introduction to Cybersecurity. Cisco </a></li>
+                        <li><a href="https://coursera.org/share/daeed195acdb561ebed4456653f138f5" target="_blank">
+                                Introduction to the Internet of Things and Embedded Systems. University of California
+                            </a></li>
+                        <li><a href="https://platzi.com/p/gerardo-zenteno/" target="_blank"> More than 25 courses -
+                                Platzi Expert and Udemy </a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
