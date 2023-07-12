@@ -12,6 +12,8 @@ body {
 
 h2 {
     color: dodgerblue;
+    font-size: 1.2em;
+
 }
 
 .info-personal {
@@ -62,10 +64,10 @@ h2 {
     margin-top: 20px;
 }
 
-.certificaciones h2 {
+/* .certificaciones h2 {
     font-size: 1.2em;
     margin-bottom: 10px;
-}
+} */
 
 .certificaciones ul {
     list-style-type: none;
